@@ -5,57 +5,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../practice-two/styles/main.css">
+    <link rel="stylesheet" href="../practice-two/styles/reset.css">
     <title>UpBox</title>
 </head>
 
 <body>
-    <div class="app">
+    <div class="container">
         <header class="header">
-            <nav class="navbar">
-                <label class="navbar__bars" for="navbar__bars--input">
-                    <i class="fas fa-bars"></i>
+            <div class="nav">
+                <nav class="navbar__pc">
+                    <div class="navbar__logo">
+                        <img src="../practice-two/images/header/logo.png" alt="logo" />
+                    </div>
+                    <ul class="navbar__list">
+                        <li class="navbar__item"><a href="">This month</a></li>
+                        <li class="navbar__item"><a href="">skin</a></li>
+                        <li class="navbar__item"><a href="">hair</a></li>
+                        <li class="navbar__item"><a href="">bath</a></li>
+                        <li class="navbar__item"><a href="">sale</a></li>
+                        <li>
+                            <div class="navbar__btn">
+                                <button>login ></button>
+                            </div>
+                        </li>
+                    </ul>
+
+                </nav>
+
+                <label for="nav-mobile-input" class="nav__bars-btn">
+                    <img src="./images/header/bars.png" />
                 </label>
-                <div class="navbar__logo">
-                    <div class="navbar__logo--img">
 
-                    </div>
-                    <div class="navbar__logo--sologan">
+                <input type="checkbox" hidden name="" class="nav__input" id="nav-mobile-input" />
 
-                    </div>
+
+                <label for="nav-mobile-input" class="nav__overlay"></label>
+
+                <nav class="navbar__mobile">
+                    <ul class="navbar__mobile-list">
+                        <li class="navbar__mobile-item"><a href="">This month</a></li>
+                        <li class="navbar__mobile-item"><a href="">skin</a></li>
+                        <li class="navbar__mobile-item"><a href="">hair</a></li>
+                        <li class="navbar__mobile-item"><a href="">bath</a></li>
+                        <li class="navbar__mobile-item"><a href="">sale</a></li>
+
+                    </ul>
+
+                </nav>
+            </div>
+            <div class="header__content">
+                <h2>Look good without leaving your house.</h2>
+                <p>Upbox is the easiest way to look your best without having to hunt for the perfect makeup combination.
+                    Our stylists curate the latest trends and send them directly to your door every month.</p>
+                <button type="button" class="btn nav_btn-content">sign up ></button>
+                <div class="box__image">
+                    <img src="./images/header/box.jpg" />
                 </div>
-                <ul class="navbar__list">
-                    <li class="navbar__item"><a href="">This Month</a></li>
-                    <li class="navbar__item"><a href="">Skin</a></li>
-                    <li class="navbar__item"><a href="">Hair</a></li>
-                    <li class="navbar__item"><a href="">Bath</a></li>
-                    <li class="navbar__item"><a href="">Sale</a></li>
+            </div>
 
-                    <li class="navbar__item navbar__item--more">
-                        <span></span>
-                    </li>
-                </ul>
-                <div class="navbar__toolbox">
-                    <div class="navbar__toolbox--search">
-                        <i class="fas fa-search"></i>
-                    </div>
-                    <div class="navbar__toolbox--avartar"></div>
-                </div>
-            </nav>
-            <input type="checkbox" name="" hidden class="navbar__bars--input" id="navbar__bars--input">
-            <label class="navbar__overlay" for="navbar__bars--input"></label>
-            <nav class="navbar__bars--mobile">
-                <label class="fas fa-times navbar__icon-close" for="navbar__bars--input"></label>
-                <ul class="navbar__list--mobile">
-
-                    <li class="navbar__item"><a href="">This Month</a></li>
-                    <li class="navbar__item"><a href="">Skin</a></li>
-                    <li class="navbar__item"><a href="">Hair</a></li>
-                    <li class="navbar__item"><a href="">Bath</a></li>
-                    <li class="navbar__item"><a href="">Sale</a></li>
-                </ul>
-
-            </nav>
         </header>
+
+
+
+
+
+    </div>
 </body>
 
 </html>
