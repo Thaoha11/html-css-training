@@ -1,15 +1,17 @@
+/* Css for header */
+
 .header {
     background-image: url(../images/header/topbar.jpg);
     width: 100%;
     height: 10px;
-    position: fixed;
 }
 
 .navbar__pc {
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     max-width: 1120px;
     margin: 0 auto;
+    display: none;
 }
 
 .navbar__logo img {
@@ -53,6 +55,17 @@
     cursor: pointer;
 }
 /* mobile */
+.banner {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar__mobile-logo img {
+    width: 160px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+}
 .nav__bars-btn {
     display: none;
 }
@@ -106,7 +119,6 @@
     margin-top: 18px;
     background: #f5f8ff;
     padding: 40px;
-    position: relative;
 }
 .header__content h2 {
     font-family: "DM Serif Text";
@@ -140,16 +152,15 @@
     text-transform: uppercase;
     margin-top: 30px;
 }
-.box__image {
-    position: absolute;
-    top: 0px;
-    left: 0px;
+.box__image img {
+    width: 300px;
+    margin-top: 30px;
 }
 @media (max-width: 740px) {
     .nav__bars-btn {
-        position: absolute;
-        right: 20px;
-        top: 31px;
+        display: block;
+        margin-top: 30px;
+        margin-right: 30px;
         display: block;
     }
     .navbar__list {
