@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="app">
         <header class="header">
             <div class="nav">
                 <nav class="navbar__pc">
@@ -32,17 +32,21 @@
                     </ul>
 
                 </nav>
-
-                <label for="nav-mobile-input" class="nav__bars-btn">
-                    <img src="./images/header/bars.png" />
-                </label>
+                <div class="banner">
+                    <div class="navbar__mobile-logo">
+                        <img src="../practice-two/images/header/logo.png" alt="logo" />
+                    </div>
+                    <label for="nav-mobile-input" class="nav__bars-btn">
+                        <img src="./images/header/bars.png" />
+                    </label>
+                </div>
 
                 <input type="checkbox" hidden name="" class="nav__input" id="nav-mobile-input" />
-
 
                 <label for="nav-mobile-input" class="nav__overlay"></label>
 
                 <nav class="navbar__mobile">
+
                     <ul class="navbar__mobile-list">
                         <li class="navbar__mobile-item"><a href="">This month</a></li>
                         <li class="navbar__mobile-item"><a href="">skin</a></li>
