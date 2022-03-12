@@ -158,7 +158,66 @@
 }
 
 /* CSS for Pick your plans section */
+.content__pick-your-plan {
+    padding: 10px;
+}
+.content__pick-your-plan h2 {
+    font-family: "DM Serif Text";
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+}
+.underline {
+    text-align: center;
+    margin-top: 5px;
+}
+.content__main-list {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.main__list--item {
+    text-align: center;
+    border: 4px solid #c4c4c4;
+    box-sizing: border-box;
+    height: 188px;
+    width: 348px;
+    padding: 20px;
+    margin-bottom: 25px;
+    background-image: url(../images/pick_your_plan/monthly.png);
+}
 
+.main__list--item h3 {
+    font-family: "DM Serif Text";
+    font-size: 30px;
+    line-height: 41px;
+}
+.main__list--item p {
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+}
+.main__list--item button {
+    font-family: "DM Sans";
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    background: #ef8094;
+    border: 4px solid #ef8094;
+    box-sizing: border-box;
+    border-radius: 300px;
+    color: #fff;
+    margin-top: 11px;
+    width: 179px;
+    height: 39px;
+}
+.content__pick-your-plan p {
+    font-family: "DM Sans";
+    font-size: 14px;
+    line-height: 18px;
+}
 @media (max-width: 740px) {
     .nav__bars-btn {
         display: block;
