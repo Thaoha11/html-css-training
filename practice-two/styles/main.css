@@ -223,7 +223,53 @@
     max-width: 316px;
     margin: auto;
 }
-
+/* CSS for how it works section */
+.content__how-it-works {
+    margin-top: 50px;
+}
+.main__how-it-works {
+    margin-top: 50px;
+}
+.main__how-it-works img {
+    margin-top: 20px;
+}
+.main__item-title {
+    max-width: 306px;
+    margin: auto;
+    letter-spacing: 0.01em;
+}
+.main__item-title h3 {
+    font-family: "DM Serif Text";
+    margin-top: 20px;
+    font-size: 30px;
+    line-height: 39px;
+    width: 94%;
+}
+.main__item-title p {
+    font-family: "DM Sans";
+    font-size: 18px;
+    line-height: 23px;
+    margin-top: 15px;
+}
+.try-it-for__btn {
+    margin: 90px 0px 100px 0px;
+    text-align: center;
+}
+.content__how-it-works button {
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    background: #ffffff;
+    border: 4px solid #ef8094;
+    box-sizing: border-box;
+    border-radius: 300px;
+    width: 284px;
+    height: 61px;
+}
 @media (max-width: 740px) {
     .nav__bars-btn {
         display: block;
