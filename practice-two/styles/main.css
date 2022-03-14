@@ -151,6 +151,7 @@
     letter-spacing: 0.12em;
     text-transform: uppercase;
     margin-top: 30px;
+    cursor: pointer;
 }
 .box__image img {
     width: 300px;
@@ -161,7 +162,7 @@
 .content__pick-your-plan {
     padding: 10px;
 }
-.content__pick-your-plan h2 {
+.sub-title {
     font-family: "DM Serif Text";
     font-size: 48px;
     line-height: 56px;
@@ -174,7 +175,7 @@
 .content__main-list {
     margin-top: 50px;
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 .main__list--item {
@@ -186,6 +187,7 @@
     padding: 20px;
     margin-bottom: 25px;
     background-image: url(../images/pick_your_plan/monthly.png);
+    justify-content: center;
 }
 
 .main__list--item h3 {
@@ -212,12 +214,16 @@
     margin-top: 11px;
     width: 179px;
     height: 39px;
+    cursor: pointer;
 }
-.content__pick-your-plan p {
+.description {
     font-family: "DM Sans";
     font-size: 14px;
     line-height: 18px;
+    max-width: 316px;
+    margin: auto;
 }
+
 @media (max-width: 740px) {
     .nav__bars-btn {
         display: block;
