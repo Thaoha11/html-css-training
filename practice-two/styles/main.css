@@ -230,8 +230,9 @@
 .main__how-it-works {
     margin-top: 50px;
 }
-.main__how-it-works img {
+.main__how-it-works--img {
     margin-top: 20px;
+    text-align: center;
 }
 .main__item-title {
     max-width: 306px;
