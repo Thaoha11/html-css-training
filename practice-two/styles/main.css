@@ -121,16 +121,12 @@
     padding: 40px;
 }
 .header__content h2 {
-    font-family: "DM Serif Text";
-    font-style: normal;
-    font-weight: 400;
+    font-family: "DMSerifDisplay";
     font-size: 48px;
     line-height: 56px;
 }
 .header__content p {
-    font-family: "DM Sans";
-    font-style: normal;
-    font-weight: 400;
+    font-family: "DMSans";
     font-size: 18px;
     line-height: 23px;
     letter-spacing: 0.01em;
@@ -143,8 +139,7 @@
     border-radius: 300px;
     width: 183px;
     height: 61px;
-    font-family: "DM Sans";
-    font-style: normal;
+    font-family: "DMSans";
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
@@ -163,7 +158,7 @@
     padding: 10px;
 }
 .sub-title {
-    font-family: "DM Serif Text";
+    font-family: "DMSerifText";
     font-size: 48px;
     line-height: 56px;
     text-align: center;
@@ -191,19 +186,18 @@
 }
 
 .main__list--item h3 {
-    font-family: "DM Serif Text";
+    font-family: "DMSerifText";
     font-size: 30px;
     line-height: 41px;
 }
 .main__list--item p {
-    font-family: "DM Sans";
-    font-weight: 400;
+    font-family: "DMSans";
     font-size: 30px;
     line-height: 39px;
 }
 .main__list--item button {
-    font-family: "DM Sans";
-    font-size: 15px;
+    font-family: "DMSans";
+    font-size: 14px;
     line-height: 18px;
     text-transform: uppercase;
     background: #ef8094;
@@ -214,10 +208,11 @@
     margin-top: 11px;
     width: 179px;
     height: 39px;
+    font-weight: 700;
     cursor: pointer;
 }
 .description {
-    font-family: "DM Sans";
+    font-family: "DMSans";
     font-size: 14px;
     line-height: 18px;
     max-width: 316px;
@@ -234,20 +229,21 @@
     margin-top: 20px;
     text-align: center;
 }
+
 .main__item-title {
     max-width: 306px;
     margin: auto;
     letter-spacing: 0.01em;
 }
 .main__item-title h3 {
-    font-family: "DM Serif Text";
+    font-family: "DMSerifText";
     margin-top: 20px;
     font-size: 30px;
     line-height: 39px;
     width: 94%;
 }
 .main__item-title p {
-    font-family: "DM Sans";
+    font-family: "DMSans";
     font-size: 18px;
     line-height: 23px;
     margin-top: 15px;
@@ -257,7 +253,7 @@
     text-align: center;
 }
 .content__how-it-works button {
-    font-family: "DM Sans";
+    font-family: "DMSans";
     font-weight: 700;
     font-size: 16px;
     line-height: 21px;
@@ -277,7 +273,7 @@
     background-color: #f5f8ff;
 }
 .content__social-post h2 {
-    font-family: "DM Serif Text";
+    font-family: "DMSerifText";
     font-size: 48px;
     line-height: 56px;
     text-align: center;
@@ -293,7 +289,7 @@
     margin-top: 30px;
 }
 .main__social-post p {
-    font-family: "DM Sans";
+    font-family: "DMSans";
     font-size: 22px;
     line-height: 29px;
     letter-spacing: 0.01em;
@@ -304,8 +300,8 @@
     text-align: center;
 }
 .follow-btn button {
-    font-family: "DM Sans";
-    font-weight: 600;
+    font-family: "DMSans";
+    font-weight: 700;
     font-size: 16px;
     line-height: 21px;
     text-align: center;
@@ -352,7 +348,8 @@
     margin-right: 1%;
 }
 .center-site__upbox h3 {
-    font-family: "DM Sans";
+    font-family: "DMSans";
+    font-weight: 700;
     font-size: 16px;
     line-height: 21px;
 }
@@ -362,7 +359,8 @@
 .center-site__upbox a {
     text-decoration: none;
     color: #000;
-    font-family: "DM Sans";
+    font-family: "DMSans";
+    font-weight: 600;
     font-size: 12px;
     line-height: 16px;
     text-transform: capitalize;
@@ -374,7 +372,8 @@
     padding-top: 10px;
 }
 .bottom-side__title {
-    font-family: "DM Sans";
+    font-family: "DMSans";
+    font-weight: 600;
     font-size: 14px;
     line-height: 18px;
     letter-spacing: 0.12em;
@@ -383,9 +382,9 @@
     margin-top: 10px;
 }
 .bottom-side__desc p {
-    font-family: "DM Sans";
+    font-family: "DMSans";
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 11px;
     line-height: 14px;
     letter-spacing: 0.12em;
@@ -399,6 +398,17 @@
     }
     .navbar__list {
         display: none;
+    }
+    .navbar__btn {
+        display: none;
+    }
+}
+@media (min-width: 768px) {
+    .nav__bars-btn {
+        display: none;
+    }
+    .navbar__list {
+        display: block;
     }
     .navbar__btn {
         display: none;
