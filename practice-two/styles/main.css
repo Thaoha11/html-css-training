@@ -391,4 +391,17 @@
     .header__content p {
         max-width: 60%;
     }
+    /* Pick your plans */
+    .content__main-list {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .main__list--item {
+        margin: auto;
+    }
+    .description {
+        text-align: center;
+        max-width: none;
+        margin-top: 20px;
+    }
 }
