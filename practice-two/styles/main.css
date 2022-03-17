@@ -91,6 +91,8 @@
     margin-top: 18px;
     background: #f5f8ff;
     padding: 40px;
+    display: flex;
+    flex-direction: column;
 }
 .header__content h2 {
     font-family: "DMSerifDisplay";
@@ -185,7 +187,8 @@
 }
 .description {
     font-family: "DMSans";
-    font-size: 14px;
+    font-weight: 500;
+    font-size: 16px;
     line-height: 18px;
     max-width: 316px;
     margin: auto;
@@ -364,3 +367,28 @@
 @media (max-width: 740px) {
 }
 /* tablet */
+@media only screen and (min-width: 740px) and (max-width: 1024px) {
+    /* header */
+    .navbar__bars {
+        display: none;
+    }
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .navbar__menu {
+        display: flex;
+        align-items: baseline;
+    }
+    .navbar__list {
+        display: flex;
+        margin-top: 35px;
+    }
+    .header__content h2 {
+        max-width: 65%;
+    }
+    .header__content p {
+        max-width: 60%;
+    }
+}
