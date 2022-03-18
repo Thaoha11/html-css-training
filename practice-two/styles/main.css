@@ -202,6 +202,8 @@
 }
 .main__how-it-works {
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
 }
 .main__how-it-works--img {
     margin-top: 20px;
@@ -418,5 +420,22 @@
         text-align: center;
         max-width: none;
         margin-top: 20px;
+    }
+    /* How it works */
+    .main__how-it-works {
+        flex-direction: row;
+    }
+    .main__how-it-works--img {
+        max-width: 48%;
+    }
+    .main__how-it-works--title {
+        max-width: 48%;
+    }
+    .content__main .main__how-it-works:nth-child(2) {
+        flex-direction: column;
+        align-items: end;
+    }
+    .content__main .main__how-it-works:nth-child(2) .main__how-it-works--title {
+        margin: 0;
     }
 }
