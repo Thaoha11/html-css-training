@@ -161,7 +161,9 @@
     background-image: url(../assets/images/photos/monthly.jpg);
     justify-content: center;
 }
-
+.content__main-list .main__list--item:nth-child(2) {
+    background-image: url(../assets/images/photos/yearly.jpg);
+}
 .main__list--item h3 {
     font-family: "DMSerifText";
     font-size: 30px;
