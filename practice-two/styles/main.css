@@ -122,6 +122,9 @@
     margin-top: 30px;
     cursor: pointer;
 }
+.box__image {
+    position: initial;
+}
 .box__image img {
     width: 300px;
     margin-top: 30px;
@@ -384,6 +387,18 @@
     .navbar__list {
         display: flex;
         margin-top: 35px;
+    }
+    .header__content {
+        position: relative;
+        height: 578px;
+    }
+    .box__image {
+        position: absolute;
+        right: 2px;
+        top: 118px;
+    }
+    .box__image img {
+        width: 500px;
     }
     .header__content h2 {
         max-width: 65%;
