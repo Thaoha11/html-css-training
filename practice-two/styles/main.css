@@ -3,11 +3,15 @@
     margin: auto;
 }
 /* Css for header */
-.header {
+.topbar {
     background-image: url(../assets/images/photos/topbar.jpg);
-    /* width: 100%; */
     background-repeat: no-repeat;
+    background-size: cover;
+    height: 6px;
 }
+.header {
+}
+
 .navbar {
     display: block;
 }
@@ -33,7 +37,7 @@
     font-weight: 600;
 }
 
-.banner {
+.navbar__banner {
     display: flex;
     justify-content: space-between;
 }
@@ -75,6 +79,7 @@
     height: 32px;
     font-family: "DMSans";
     font-weight: 600;
+    cursor: pointer;
 }
 .navbar__list .navbar__list-item {
 }
@@ -447,6 +452,7 @@
     .content__main .main__how-it-works:nth-child(2) .main__how-it-works--title {
         margin: 0;
     }
+
     /* Social post */
     .list__social-post {
         flex-direction: row;
@@ -462,6 +468,8 @@
     }
 }
 @media only screen and (min-width: 1024px) {
+    header {
+    }
     /* Social post */
     .list__social-post {
         flex-wrap: nowrap;
