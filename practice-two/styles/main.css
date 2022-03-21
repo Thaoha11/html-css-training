@@ -464,20 +464,24 @@
         display: flex;
     }
 }
+/* Desktop */
 @media only screen and (min-width: 1024px) {
+    .header__content--main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .header__content--text {
+        max-width: 57%;
+    }
     .box__image {
-        right: 145px;
-        top: 0px;
+        position: initial;
     }
-    .box__image img {
-        width: 600px;
+
+    .header__content {
+        padding-bottom: 0px;
     }
-    .header__content--title {
-        max-width: 49%;
-    }
-    .header__content--desc {
-        max-width: 42%;
-    }
+
     /* Social post */
     .list__social-post {
         flex-wrap: nowrap;
