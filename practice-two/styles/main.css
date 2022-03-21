@@ -444,7 +444,7 @@
     }
     .content__main .main__how-it-works:nth-child(2) {
         flex-direction: column;
-        align-items: end;
+        align-items: center;
     }
     .content__main .main__how-it-works:nth-child(2) .main__how-it-works--title {
         margin: 0;
@@ -465,8 +465,6 @@
     }
 }
 @media only screen and (min-width: 1024px) {
-    .header__content {
-    }
     .box__image {
         right: 145px;
         top: 0px;
