@@ -5,23 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../practice-two/styles/main.css">
-    <link rel="stylesheet" href="../practice-two/styles/fonts.css">
-    <link rel="stylesheet" href="../practice-two/styles/reset.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/main.css">
+
     <title>UpBox</title>
 </head>
 
 <body>
-    <div class="container">
-        <!-- Header -->
-        <header class="header">
+    <!-- <div class="container"> -->
+    <!-- Header -->
+    <header class="header">
+        <div class="topbar"></div>
+        <div class="container">
             <div class="navbar">
-                <div class="banner">
+                <div class="navbar__banner">
                     <div class="navbar__logo">
                         <img src="./assets/images/icons/logo.png" alt="logo" />
                     </div>
                     <div class="navbar__bars">
-                        <img src="./assets/images/icons/bars.png" />
+                        <img src="./assets/images/icons/bars.png" alt="logo" />
                     </div>
                 </div>
                 <div class="navbar__menu">
@@ -37,28 +40,24 @@
                     </div>
                 </div>
             </div>
-            <div class="header__content">
-
-
-
+        </div>
+        <div class="header__content">
+            <div class="container">
                 <h2>Look good without leaving your house.</h2>
-
                 <p>Upbox is the easiest way to look your best without having to hunt for the perfect makeup
                     combination.Our stylists curate the latest trends and send them directly to your door every month.
                 </p>
-
-                <button type="button" class="btn nav_btn-content">sign up ></button>
-
+                <button type="button" class="nav_btn-content">sign up ></button>
                 <div class="box__image">
                     <img src="./assets/images/photos/box.jpg" alt="box" />
                 </div>
             </div>
+        </div>
+    </header>
 
 
-        </header>
-
-
-        <!-- Pick your plans section -->
+    <!-- Pick your plans section -->
+    <div class="container">
         <section class="content__pick-your-plan">
             <h2 class="sub-title">Pick your plan</h2>
             <div class="underline">
@@ -80,7 +79,9 @@
             </div>
             <p class="description">Your plan auto-renews at the end of 30 days from the 1st day you signed-up.</p>
         </section>
-        <!-- How it works section -->
+    </div>
+    <!-- How it works section -->
+    <div class="container">
         <section class="content__how-it-works">
             <h2 class="sub-title">How it works</h2>
             <div class="underline">
@@ -101,6 +102,7 @@
                 <div class="main__how-it-works">
                     <div class="main__how-it-works--img">
                         <img src="./assets/images/photos/pink_box.jpg" alt="group" />
+
                     </div>
                     <div class="main__how-it-works--title">
                         <h3>Review your custom box</h3>
@@ -124,8 +126,11 @@
                 </div>
             </div>
         </section>
-        <!-- social post -->
-        <section class="content__social-post">
+    </div>
+    <!-- social post -->
+
+    <section class="content__social-post">
+        <div class="container">
             <h2>Social Posts</h2>
             <section class="list__social-post">
                 <article class="main__social-post">
@@ -149,9 +154,11 @@
             <article class="social-post__btn">
                 <button>follow us instagram</button>
             </article>
-        </section>
-        <!-- footer -->
-        <footer class="footer">
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
             <section class="footer-container">
                 <article class="footer-container__top-side">
                     <img class="top-side__logo" src="./assets/images/icons/logo_footer.png" alt="logo" />
@@ -208,10 +215,10 @@
                     </article>
                 </article>
             </section>
+        </div>
+    </footer>
 
-        </footer>
-
-    </div>
+    <!-- </div> -->
 
 </body>
 
