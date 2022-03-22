@@ -137,6 +137,7 @@
 /* CSS for Pick your plans section */
 .content__pick-your-plan {
     padding: 10px;
+    margin-top: 20px;
 }
 .sub-title {
     font-family: "DMSerifText";
@@ -164,16 +165,18 @@
     margin-bottom: 25px;
     background-image: url(../assets/images/photos/monthly.jpg);
     justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .content__main-list .main__list--item:nth-child(2) {
     background-image: url(../assets/images/photos/yearly.jpg);
 }
-.main__list--item h3 {
+.list__item-monthly {
     font-family: "DMSerifText";
     font-size: 30px;
     line-height: 41px;
 }
-.main__list--item p {
+.list__item-dolar {
     font-family: "DMSans";
     font-size: 30px;
     line-height: 39px;
@@ -478,6 +481,7 @@
     }
     .header__content--text {
         margin-top: 30px;
+        font-size: 48px;
     }
     .header__content--title {
         max-width: none;
@@ -485,6 +489,7 @@
     .header__content--desc {
         max-width: none;
         width: 468px;
+        font-size: 18px;
     }
     .box__image {
         position: initial;
@@ -502,7 +507,20 @@
     .header__content {
         padding-bottom: 0px;
     }
-
+    .main__list--item {
+        width: 575px;
+        height: 290px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .list__item-monthly {
+        font-size: 36px;
+    }
+    .list__item-dolar {
+        font-size: 40px;
+        line-height: 57px;
+    }
     /* Social post */
     .list__social-post {
         flex-wrap: nowrap;
