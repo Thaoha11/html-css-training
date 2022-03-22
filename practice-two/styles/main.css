@@ -471,9 +471,7 @@
         flex-direction: row;
         justify-content: space-around;
     }
-    .header__content--text {
-        max-width: 57%;
-    }
+
     .box__image {
         position: initial;
     }
