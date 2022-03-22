@@ -409,17 +409,20 @@
     }
     .box__image {
         position: absolute;
-        right: 2px;
-        top: 118px;
+        right: 0px;
+        top: 88px;
+        width: 550px;
     }
     .image__box--mobile {
-        width: 500px;
+        width: 100%;
     }
     .header__content--title {
         max-width: 65%;
+        font-size: 42px;
     }
     .header__content--desc {
-        max-width: 60%;
+        max-width: 50%;
+        font-size: 15px;
     }
     /* Pick your plans */
     .content__main-list {
