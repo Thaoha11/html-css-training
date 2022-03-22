@@ -1,5 +1,5 @@
 .container {
-    max-width: 1140px;
+    max-width: 1220px;
     margin: auto;
 }
 /* Css for header */
@@ -127,11 +127,13 @@
 .box__image {
     position: initial;
 }
-.box__image img {
+.image__box--mobile {
     width: 300px;
     margin-top: 30px;
 }
-
+.image__box--desktop {
+    display: none;
+}
 /* CSS for Pick your plans section */
 .content__pick-your-plan {
     padding: 10px;
@@ -410,7 +412,7 @@
         right: 2px;
         top: 118px;
     }
-    .box__image img {
+    .image__box--mobile {
         width: 500px;
     }
     .header__content--title {
@@ -471,11 +473,29 @@
         flex-direction: row;
         justify-content: space-around;
     }
-
+    .header__content--text {
+        margin-top: 30px;
+    }
+    .header__content--title {
+        max-width: none;
+    }
+    .header__content--desc {
+        max-width: none;
+        width: 468px;
+    }
     .box__image {
         position: initial;
+        width: 750px;
+        height: 436px;
     }
-
+    .image__box--mobile {
+        display: none;
+    }
+    .image__box--desktop {
+        display: block;
+        width: 750px;
+        height: auto;
+    }
     .header__content {
         padding-bottom: 0px;
     }
