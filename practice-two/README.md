@@ -21,7 +21,7 @@ This document provides a detailed estimate of the HTML/CSS practice.
 Build website user interface from existing designs
 
 # TIMELINE
-Estimated time: 09/03-16/03 (6 working days)
+Estimated time: 09/03-22/03 (8 working days)
 
 - Day 1: Estimate detail, Create tasks, Implement Header section 
 - Day 2: Implement Pick your plans section, Social Posts section (mobile version)
