@@ -203,7 +203,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 18px;
-    max-width: 316px;
+    max-width: 340px;
     margin: auto;
 }
 /* CSS for how it works section */
@@ -285,9 +285,11 @@
     align-items: center;
 }
 .main__social-post {
-    max-width: 338px;
-
+    max-width: 312px;
     margin-top: 30px;
+}
+.main__social-post img {
+    width: 100%;
 }
 .main__social-post p {
     font-family: "DMSans";
@@ -501,7 +503,7 @@
     .list__social-post {
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-around;
     }
     /* footer */
     .footer-container__top-side {
@@ -600,10 +602,10 @@
     /* Social post */
     .list__social-post {
         flex-wrap: nowrap;
-        align-items: center;
+        justify-content: center;
     }
     .main__social-post {
-        margin-left: 25px;
+        margin-left: 30px;
     }
     .main__social-post p {
         width: 323px;
