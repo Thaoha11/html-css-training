@@ -235,13 +235,17 @@
     margin-top: 20px;
     font-size: 30px;
     line-height: 39px;
-    width: 94%;
+    max-width: 90%;
+}
+.content__main .main__how-it-works:nth-child(2) .main__how-it-works--title p {
+    max-width: 95%;
 }
 .main__how-it-works--title p {
     font-family: "DMSans";
     font-size: 18px;
     line-height: 23px;
     margin-top: 15px;
+    max-width: 93%;
 }
 .how-it-works__btn {
     margin: 90px 0px 100px 0px;
@@ -461,10 +465,16 @@
         width: 630px;
     }
     .main__how-it-works--title {
-        max-width: 48%;
+        max-width: none;
+        margin-left: 18px;
+        margin-top: 82px;
     }
     .main__how-it-works--title h3 {
-        max-width: 70%;
+        max-width: 93%;
+    }
+    .main__how-it-works--title p {
+        font-size: 15px;
+        width: 77%;
     }
     .content__main .main__how-it-works:nth-child(2) {
         flex-direction: column;
@@ -474,13 +484,16 @@
         margin: 0;
         position: relative;
         top: -66px;
-        left: 184px;
+        left: 390px;
     }
     .content__main .main__how-it-works:nth-child(2) .main__how-it-works--title h3 {
-        width: 43%;
+        width: 33%;
+    }
+    .content__main .main__how-it-works:nth-child(2) .main__how-it-works--title p {
+        width: 44%;
     }
     .content__main .main__how-it-works:nth-child(3) .main__how-it-works--title p {
-        width: 111%;
+        width: 92%;
     }
     /* Social post */
     .list__social-post {
@@ -566,7 +579,7 @@
         width: 50%;
     }
     .main__how-it-works--title p {
-        width: 70%;
+        width: 64%;
     }
     .content__main .main__how-it-works:nth-child(2) .main__how-it-works--title {
         width: 500px;
@@ -577,10 +590,10 @@
         width: 52%;
     }
     .content__main .main__how-it-works:nth-child(2) .main__how-it-works--title p {
-        width: 79%;
+        width: 73%;
     }
     .content__main .main__how-it-works:nth-child(3) .main__how-it-works--title p {
-        width: 83%;
+        width: 75%;
     }
     /* Social post */
     .list__social-post {
