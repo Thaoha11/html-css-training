@@ -157,7 +157,7 @@
 }
 .main__list--item {
     text-align: center;
-    border: 4px solid #c4c4c4;
+    border: 4px solid #e8e8e8;
     box-sizing: border-box;
     height: 188px;
     width: 348px;
@@ -207,7 +207,10 @@
 }
 /* CSS for how it works section */
 .content__how-it-works {
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    padding-top: 50px;
+    margin: auto;
+    max-width: 950px;
 }
 .main__how-it-works {
     margin-top: 50px;
@@ -218,7 +221,9 @@
     margin-top: 20px;
     text-align: center;
 }
-
+.img__pinkbox2 {
+    display: none;
+}
 .main__how-it-works--title {
     max-width: 306px;
     margin: auto;
@@ -447,8 +452,18 @@
     .main__how-it-works--img {
         max-width: 48%;
     }
+    .img__pinkbox1 {
+        display: none;
+    }
+    .img__pinkbox2 {
+        display: block;
+        width: 630px;
+    }
     .main__how-it-works--title {
         max-width: 48%;
+    }
+    .main__how-it-works--title h3 {
+        max-width: 70%;
     }
     .content__main .main__how-it-works:nth-child(2) {
         flex-direction: column;
@@ -456,8 +471,16 @@
     }
     .content__main .main__how-it-works:nth-child(2) .main__how-it-works--title {
         margin: 0;
+        position: relative;
+        top: -66px;
+        left: 184px;
     }
-
+    .content__main .main__how-it-works:nth-child(2) .main__how-it-works--title h3 {
+        width: 43%;
+    }
+    .content__main .main__how-it-works:nth-child(3) .main__how-it-works--title p {
+        width: 111%;
+    }
     /* Social post */
     .list__social-post {
         flex-direction: row;
@@ -507,9 +530,10 @@
     .header__content {
         padding-bottom: 0px;
     }
+    /* Pick your plans */
     .main__list--item {
-        width: 575px;
-        height: 290px;
+        width: 508px;
+        height: 285px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -520,6 +544,41 @@
     .list__item-dolar {
         font-size: 40px;
         line-height: 57px;
+    }
+    /*How it works  */
+    .main__how-it-works {
+        align-items: center;
+    }
+    .main__how-it-works--img {
+        margin-right: 30px;
+    }
+    .img__pinkbox2 {
+        width: 800px;
+    }
+    .main__how-it-works--title {
+        max-width: none;
+        margin-left: 18px;
+        margin-top: 82px;
+    }
+    .main__how-it-works--title h3 {
+        width: 50%;
+    }
+    .main__how-it-works--title p {
+        width: 70%;
+    }
+    .content__main .main__how-it-works:nth-child(2) .main__how-it-works--title {
+        width: 500px;
+        top: -75px;
+        left: 243px;
+    }
+    .content__main .main__how-it-works:nth-child(2) .main__how-it-works--title h3 {
+        width: 52%;
+    }
+    .content__main .main__how-it-works:nth-child(2) .main__how-it-works--title p {
+        width: 79%;
+    }
+    .content__main .main__how-it-works:nth-child(3) .main__how-it-works--title p {
+        width: 82%;
     }
     /* Social post */
     .list__social-post {
