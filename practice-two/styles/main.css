@@ -282,6 +282,7 @@
 .list__social-post {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .main__social-post {
     max-width: 338px;
@@ -462,7 +463,7 @@
     }
     .img__pinkbox2 {
         display: block;
-        width: 630px;
+        width: 605px;
     }
     .main__how-it-works--title {
         max-width: none;
@@ -484,13 +485,14 @@
         margin: 0;
         position: relative;
         top: -66px;
-        left: 390px;
+        left: 190px;
+        max-width: 400px;
     }
     .content__main .main__how-it-works:nth-child(2) .main__how-it-works--title h3 {
-        width: 33%;
+        width: 63%;
     }
     .content__main .main__how-it-works:nth-child(2) .main__how-it-works--title p {
-        width: 44%;
+        width: 87%;
     }
     .content__main .main__how-it-works:nth-child(3) .main__how-it-works--title p {
         width: 92%;
