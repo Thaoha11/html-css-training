@@ -125,12 +125,15 @@
     cursor: pointer;
 }
 .box__image {
-    position: initial;
-    height: 297px;
+    position: relative;
+    height: 393px;
+    max-width: 400px;
 }
 .image__box--mobile {
-    width: 300px;
-    margin-top: 30px;
+    width: 395px;
+    position: absolute;
+    top: 30px;
+    right: -44px;
 }
 .image__box--desktop {
     display: none;
@@ -424,20 +427,19 @@
         padding-bottom: 318px;
     }
     .box__image {
-        position: absolute;
-        right: 0px;
-        top: 88px;
-        width: 550px;
+        height: auto;
     }
     .image__box--mobile {
-        width: 100%;
+        width: 550px;
+        top: -246px;
+        left: 228px;
     }
     .header__content--title {
         max-width: 65%;
         font-size: 42px;
     }
     .header__content--desc {
-        max-width: 50%;
+        max-width: 52%;
         font-size: 15px;
     }
     /* Pick your plans */
@@ -588,7 +590,7 @@
     .content__main .main__how-it-works:nth-child(2) .main__how-it-works--title {
         width: 500px;
         top: -75px;
-        left: 243px;
+        left: 190px;
     }
     .content__main .main__how-it-works:nth-child(2) .main__how-it-works--title h3 {
         width: 52%;
