@@ -424,7 +424,8 @@
     }
     .header__content {
         position: relative;
-        padding-bottom: 318px;
+        padding-bottom: 252px;
+        overflow: hidden;
     }
     .box__image {
         height: auto;
@@ -518,11 +519,27 @@
 }
 /* Desktop */
 @media only screen and (min-width: 1024px) {
+    .navbar__logo img {
+        margin-left: 0px;
+    }
+    .header__content {
+        padding-bottom: 43px;
+        flex-direction: row;
+        overflow: hidden;
+    }
+    .content__container {
+        width: 1300px;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+
     .header__content--main {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
+
     .header__content--text {
         margin-top: 30px;
         font-size: 48px;
@@ -546,15 +563,11 @@
         display: block;
         width: 900px;
         height: 700px;
-        right: -32px;
+        right: -128px;
         position: absolute;
-        top: 49px;
+        top: 3px;
     }
-    .header__content {
-        padding-bottom: 93px;
-        flex-direction: row;
-        overflow: hidden;
-    }
+
     /* Pick your plans */
     .main__list--item {
         width: 508px;
