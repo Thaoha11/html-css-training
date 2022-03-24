@@ -127,13 +127,13 @@
 .box__image {
     position: relative;
     height: 393px;
-    max-width: 400px;
+    max-width: 380px;
 }
 .image__box--mobile {
-    width: 395px;
+    width: 387px;
     position: absolute;
     top: 30px;
-    right: -44px;
+    right: -36px;
 }
 .image__box--desktop {
     display: none;
@@ -248,7 +248,7 @@
     font-size: 18px;
     line-height: 23px;
     margin-top: 15px;
-    max-width: 93%;
+    max-width: 96%;
 }
 .how-it-works__btn {
     margin: 90px 0px 100px 0px;
@@ -528,7 +528,7 @@
         font-size: 48px;
     }
     .header__content--title {
-        max-width: none;
+        max-width: 52%;
     }
     .header__content--desc {
         max-width: none;
@@ -536,20 +536,24 @@
         font-size: 18px;
     }
     .box__image {
-        position: initial;
-        width: 750px;
-        height: 436px;
+        width: 850px;
+        height: 435px;
     }
     .image__box--mobile {
         display: none;
     }
     .image__box--desktop {
         display: block;
-        width: 750px;
-        height: auto;
+        width: 900px;
+        height: 700px;
+        right: -32px;
+        position: absolute;
+        top: 49px;
     }
     .header__content {
-        padding-bottom: 0px;
+        padding-bottom: 93px;
+        flex-direction: row;
+        overflow: hidden;
     }
     /* Pick your plans */
     .main__list--item {
