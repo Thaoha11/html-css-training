@@ -40,8 +40,8 @@
     justify-content: space-between;
 }
 .navbar__logo img {
-    width: 160px;
-    height: 40px;
+    width: 200px;
+    height: 48px;
     margin-top: 30px;
     margin-left: 20px;
     cursor: pointer;
@@ -324,12 +324,14 @@
 }
 /* CSS for footer */
 .footer-container {
+    padding: 17px;
+    margin: 15px;
+}
+.footer-topic {
     background: #eeeeee;
     border: 2px solid #c4c4c4;
     box-sizing: border-box;
     border-radius: 6px;
-    padding: 17px;
-    margin: 15px;
 }
 .footer-container__top-side {
     display: flex;
@@ -338,8 +340,8 @@
     width: 330px;
 }
 .top-side__logo img {
-    width: 100px;
-    height: 30px;
+    width: 140px;
+    height: 40px;
 }
 .top-side__icon {
     width: 300px;
@@ -349,6 +351,7 @@
 }
 .top-side__icon img {
     margin-right: 25px;
+    height: 35px;
     cursor: pointer;
 }
 .footer-container__center-site {
@@ -385,7 +388,7 @@
     margin-top: 10px;
 }
 .footer-container__bottom-side {
-    padding-top: 20px;
+    /* padding-top: 20px; */
 }
 .bottom-side__title {
     font-family: "DMSans";
@@ -682,7 +685,7 @@
     }
 
     .top-side__icon {
-        width: 205px;
+        width: 222px;
     }
     .footer-container__center-site {
         flex-direction: row;
@@ -690,7 +693,7 @@
     }
     .center-site {
         margin-left: 0px;
-        width: 510px;
+        width: 555px;
     }
     .center-site__upbox {
         width: 40%;
