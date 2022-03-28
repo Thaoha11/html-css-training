@@ -248,7 +248,7 @@
     font-size: 18px;
     line-height: 23px;
     margin-top: 15px;
-    max-width: 96%;
+    max-width: 94%;
 }
 .how-it-works__btn {
     margin: 90px 0px 100px 0px;
@@ -300,6 +300,7 @@
     line-height: 29px;
     letter-spacing: 0.5px;
     margin-top: 20px;
+    width: 98%;
 }
 .social-post__btn {
     margin: 90px 0px 100px 0px;
@@ -645,7 +646,7 @@
         margin-top: 82px;
     }
     .main__how-it-works--title h3 {
-        width: 50%;
+        width: 51%;
     }
     .main__how-it-works--title p {
         width: 64%;
@@ -659,7 +660,7 @@
         width: 52%;
     }
     .content__main .main__how-it-works:nth-child(2) .main__how-it-works--title p {
-        width: 73%;
+        width: 87%;
     }
     .content__main .main__how-it-works:nth-child(3) .main__how-it-works--title p {
         width: 75%;
