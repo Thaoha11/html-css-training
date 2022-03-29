@@ -13,13 +13,6 @@
 .navbar {
     display: block;
 }
-.navbar__logo img {
-    width: 160px;
-    height: 40px;
-    margin-top: 30px;
-    margin-left: 20px;
-    cursor: pointer;
-}
 
 .navbar__list .navbar__list-item {
     display: inline-block;
@@ -437,6 +430,10 @@
         align-items: center;
         justify-content: space-between;
     }
+    .navbar__logo img {
+        width: 160px;
+        height: 40px;
+    }
     .navbar__menu {
         display: flex;
         align-items: baseline;
@@ -445,18 +442,29 @@
         display: flex;
         margin-top: 35px;
     }
+    .navbar__list .navbar__list-item a {
+        font-size: 10px;
+    }
+    .navbar__btn button {
+        font-size: 10px;
+    }
     .header__content {
         position: relative;
-        padding-bottom: 252px;
+        padding-bottom: 200px;
         overflow: hidden;
     }
+
     .box__image {
         height: auto;
     }
     .image__box--mobile {
-        width: 550px;
+        width: 477px;
         top: -246px;
-        left: 228px;
+        left: 298px;
+    }
+    .header__content--text {
+        margin-top: -18px;
+        margin-left: -17px;
     }
     .header__content--title {
         max-width: 65%;
@@ -465,26 +473,40 @@
     .header__content--desc {
         max-width: 52%;
         font-size: 15px;
+        margin-top: 8px;
     }
     /* Pick your plans */
+    .content__pick-your-plan {
+        margin-top: 0px;
+    }
     .content__main-list {
         flex-direction: row;
         justify-content: center;
+        margin-top: 37px;
     }
     .main__list--item {
         margin: auto;
     }
+    .main__list--item button {
+        font-size: 10px;
+        width: 119px;
+        height: 41px;
+    }
     .description {
         text-align: center;
         max-width: none;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     /* How it works */
+    .content__how-it-works {
+        padding-top: 100px;
+    }
     .main__how-it-works {
         flex-direction: row;
     }
     .main__how-it-works--img {
         max-width: 48%;
+        margin-top: -68px;
     }
     .img__pinkbox1 {
         display: none;
@@ -496,8 +518,9 @@
     .main__how-it-works--title {
         max-width: none;
         margin-left: 18px;
-        margin-top: 82px;
+        margin-top: 0px;
     }
+
     .main__how-it-works--title h3 {
         max-width: 93%;
     }
@@ -525,7 +548,17 @@
     .content__main .main__how-it-works:nth-child(3) .main__how-it-works--title p {
         width: 92%;
     }
+    .how-it-works__btn {
+        margin-top: 21px;
+    }
+    .how-it-works__btn button {
+        width: 253px;
+    }
+
     /* Social post */
+    .social-post__btn {
+        margin: 57px 0px 117px 0px;
+    }
     .list__social-post {
         flex-direction: row;
         flex-wrap: wrap;
@@ -539,10 +572,12 @@
         /* max-width: 688px; */
     }
     .footer-container__top-side {
-        justify-content: end;
+        justify-content: center;
+        margin-left: 36px;
     }
     .top-side__icon {
         display: flex;
+        width: 267px;
     }
     .footer-container__center-site {
         flex-direction: column;
@@ -551,7 +586,7 @@
         flex-direction: row;
         width: 600px;
         justify-content: space-between;
-        margin-left: 53px;
+        margin-left: 43px;
     }
     .center-site__upbox {
         width: 44%;
@@ -563,10 +598,10 @@
         flex-direction: row;
     }
     .bottom-side__title p {
-        margin-left: 53px;
+        margin-left: 43px;
     }
     .bottom-side__desc {
-        margin-left: 53px;
+        margin-left: 43px;
     }
     .bottom-side__desc p {
         font-size: 14px;
