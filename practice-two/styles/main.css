@@ -160,7 +160,7 @@
     margin-top: 5px;
 }
 .content__main-list {
-    margin-top: 50px;
+    margin-top: 62px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -172,7 +172,7 @@
     height: 188px;
     width: 348px;
     padding: 20px;
-    margin-bottom: 25px;
+    margin-bottom: 19px;
     background-image: url(../assets/images/photos/monthly.jpg);
     justify-content: center;
     background-repeat: no-repeat;
@@ -217,7 +217,7 @@
 }
 /* CSS for how it works section */
 .content__how-it-works {
-    padding-top: 100px;
+    padding-top: 84px;
     margin: auto;
     max-width: 950px;
 }
@@ -286,7 +286,7 @@
     line-height: 56px;
     text-align: center;
     padding: 30px;
-    margin-top: 50px;
+    margin-top: 21px;
 }
 .list__social-post {
     display: flex;
@@ -295,7 +295,7 @@
 }
 .main__social-post {
     max-width: 312px;
-    margin-top: 30px;
+    margin-bottom: 80px;
 }
 .main__social-post img {
     width: 100%;
@@ -305,11 +305,11 @@
     font-size: 20px;
     line-height: 29px;
     letter-spacing: 0.5px;
-    margin-top: 20px;
+    margin-top: 35px;
     width: 98%;
 }
 .social-post__btn {
-    margin: 102px 0px 71px 0px;
+    margin: 0px 0px 71px 0px;
     text-align: center;
 }
 .social-post__btn button {
@@ -330,6 +330,9 @@
     color: #fff;
 }
 /* CSS for footer */
+.footer {
+    padding: 20px;
+}
 .footer-container {
     padding: 17px;
     margin: 15px;
