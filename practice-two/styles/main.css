@@ -418,6 +418,9 @@
     width: 78%;
 }
 @media (max-width: 740px) {
+    .center-site:nth-child(2) {
+        margin-left: 26px;
+    }
 }
 /* tablet */
 @media only screen and (min-width: 768px) {
