@@ -3,11 +3,11 @@
     src: url("../assets/fonts/dm_serif_display/DMSerifDisplay-Regular.ttf");
 }
 @font-face {
-    font-family: "DMSans";
+    font-family: "DMSansBold";
     src: url("../assets/fonts/dm_sans/DMSans-Bold.ttf");
 }
 @font-face {
-    font-family: "DMSans";
+    font-family: "DMSansMedium";
     src: url("../assets/fonts/dm_sans/DMSans-Medium.ttf");
 }
 @font-face {
