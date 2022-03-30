@@ -114,7 +114,7 @@
     line-height: 21px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    margin-top: 30px;
+    margin-top: 42px;
     cursor: pointer;
 }
 .box__image {
@@ -549,7 +549,7 @@
         width: 92%;
     }
     .how-it-works__btn {
-        margin-top: 21px;
+        margin-top: 50px;
     }
     .how-it-works__btn button {
         width: 253px;
@@ -572,6 +572,7 @@
     .footer-container__top-side {
         justify-content: center;
         margin-left: 36px;
+        align-items: baseline;
     }
     .top-side__icon {
         display: flex;
