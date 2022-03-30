@@ -253,8 +253,7 @@
     text-align: center;
 }
 .how-it-works__btn button {
-    font-family: "DMSans";
-    font-weight: 700;
+    font-family: "DMSansBold";
     font-size: 16px;
     line-height: 21px;
     text-align: center;
@@ -306,8 +305,7 @@
     text-align: center;
 }
 .social-post__btn button {
-    font-family: "DMSans";
-    font-weight: 700;
+    font-family: "DMSansBold";
     font-size: 16px;
     line-height: 21px;
     text-align: center;
@@ -374,8 +372,7 @@
     height: 177px;
 }
 .center-site__upbox h3 {
-    font-family: "DMSans";
-    font-weight: 700;
+    font-family: "DMSansBold";
     font-size: 16px;
     line-height: 21px;
 }
@@ -383,8 +380,7 @@
 .center-site__upbox a {
     text-decoration: none;
     color: #000;
-    font-family: "DMSans";
-    font-weight: 600;
+    font-family: "DMSansMedium";
     font-size: 12px;
     line-height: 16px;
     text-transform: capitalize;
@@ -409,9 +405,7 @@
     margin-top: 10px;
 }
 .bottom-side__desc p {
-    font-family: "DMSans";
-    font-style: normal;
-    font-weight: 600;
+    font-family: "DMSansMedium";
     font-size: 11px;
     line-height: 15px;
     letter-spacing: 1px;
