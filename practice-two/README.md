@@ -11,7 +11,7 @@ This document provides a detailed estimate of the HTML/CSS practice.
 # TECHNICAL
 - HTML5/CSS3 
 - RESPONSIVE
-- HTML Inspector. 
+- HTML Inspector 
 
 # TARGETS
 - Apply knowledge to responsive practice one design
@@ -30,7 +30,14 @@ Estimated time: 09/03-22/03 (8 working days)
 - Day 5: How it words section,Social Posts section,Footer section (tablet version)
 - Day 6: Implement Header section,Pick your plans section (desktop version)
 - Day 7: How it words section,Social Posts section,Footer section (desktop version)
-- Day 8:Fix issue DESIGN Figma
+- Day 8: Review with mentor & fix issue 
+- Day 9: Fix issue DESIGN Figma
+- Day 10: Fix issue DESIGN Figma
+- Day 11: Fix issue DESIGN Figma
+- Day 12: Pair review & add Perfect pixel tool
+- Day 13: Apply Perfect pixel 
+- Day 14: Apply Perfect pixel 
+- Day 15: Review with mentor
 # GETTING STARTED
 - Clone repository: https://github.com/Thaoha11/html-css-training/tree/features/implement-banner-subscribing-features-footer/practice-two
 - Checkout branch: git checkout feature/practice-one
