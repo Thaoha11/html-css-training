@@ -390,8 +390,7 @@
     /* padding-top: 20px; */
 }
 .bottom-side__title {
-    font-family: "DMSans";
-    font-weight: 600;
+    font-family: "DMSansMedium";
     font-size: 14px;
     line-height: 30px;
     letter-spacing: 1px;
@@ -760,10 +759,6 @@
     .footer {
         margin-top: 14px;
         margin-left: 45px;
-    }
-    .footer-topic {
-        width: 1379px;
-        height: 481px;
     }
     .footer-container__top-side {
         margin-left: 0px;
