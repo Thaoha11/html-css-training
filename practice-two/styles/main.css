@@ -341,19 +341,19 @@
     width: 330px;
 }
 .top-side__logo img {
-    width: 132px;
-    height: 37px;
+    width: 135px;
 }
 .top-side__icon {
     width: 300px;
-}
-.top-side__icon {
     display: none;
 }
+
 .top-side__icon img {
-    margin-right: 30px;
+    margin-right: 26px;
     height: 27px;
     cursor: pointer;
+    width: 132px;
+    height: 37px;
 }
 .footer-container__center-site {
     margin-bottom: 35px;
