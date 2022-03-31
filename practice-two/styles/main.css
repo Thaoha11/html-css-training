@@ -223,7 +223,7 @@
     margin-top: 20px;
     text-align: center;
 }
-.img__pinkbox2 {
+.img__pinkbox--desktop {
     display: none;
 }
 .main__how-it-works--title {
@@ -386,9 +386,7 @@
     text-transform: capitalize;
     margin-top: 10px;
 }
-.footer-container__bottom-side {
-    /* padding-top: 20px; */
-}
+
 .bottom-side__title {
     font-family: "DMSansMedium";
     font-size: 14px;
@@ -504,10 +502,10 @@
         max-width: 48%;
         margin-top: -68px;
     }
-    .img__pinkbox1 {
+    .img__pinkbox--mobile {
         display: none;
     }
-    .img__pinkbox2 {
+    .img__pinkbox--desktop {
         display: block;
         width: 605px;
     }
@@ -705,7 +703,7 @@
         margin-right: 11px;
         margin-top: -42px;
     }
-    .img__pinkbox2 {
+    .img__pinkbox--desktop {
         width: 800px;
     }
     .main__how-it-works--title {
