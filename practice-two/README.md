@@ -11,17 +11,17 @@ This document provides a detailed estimate of the HTML/CSS practice.
 # TECHNICAL
 - HTML5/CSS3 
 - RESPONSIVE
-- HTML Inspector 
+
 
 # TARGETS
 - Apply knowledge to responsive practice one design
-- Used media queries for popular screen size)
+- Used media queries for popular screen size
 
 # EXERCISE
-Build website user interface from existing designs
+ Build website user interface from existing designs
 
 # TIMELINE
-Estimated time: 09/03-22/03 (8 working days)
+ Estimated time: 09/03-22/03 (8 working days)
 
 - Day 1: Estimate detail, Create tasks, Implement Header section 
 - Day 2: Implement Pick your plans section, Social Posts section (mobile version)
@@ -38,10 +38,23 @@ Estimated time: 09/03-22/03 (8 working days)
 - Day 13: Apply Perfect pixel 
 - Day 14: Apply Perfect pixel 
 - Day 15: Review with mentor
+
+# DESIGN
+[Figma](https://www.figma.com/file/10PENPX0JMNex3s07Yjs3L/UpBox-(Community)?node-id=1%3A2)
+
 # GETTING STARTED
-- Clone repository: https://github.com/Thaoha11/html-css-training/tree/features/implement-banner-subscribing-features-footer/practice-two
-- Checkout branch: git checkout feature/practice-one
+- Clone repository:``` https://github.com/Thaoha11/html-css-training ```
+- Run Webpage:
+```bash
+ git checkout feature/practice-two
+```
+```bash
+Open practice-two folder
+```
+```bash
+Double-click on index.html file
+```
 - Run with python server
-- With Python version 2: python -m SimpleHTTPServer 8888
-- With Python version 3: python3 -m http.server 8888
-- Open browser and run website with url: http://localhost:8888/
+- With Python version 2 : python -m SimpleHTTPServer 8888
+- With Python version 3 : python3 -m http.server 8888
+- Open browser and run website with url:``` http://localhost:8888/```
