@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "DMSerifText";
+    src: url("../assets/fonts/dm_serif_display/DMSerifDisplay-Regular.ttf");
+}
+@font-face {
+    font-family: "DMSansBold";
+    src: url("../assets/fonts/dm_sans/DMSans-Bold.ttf");
+}
+@font-face {
+    font-family: "DMSansMedium";
+    src: url("../assets/fonts/dm_sans/DMSans-Medium.ttf");
+}
+@font-face {
+    font-family: "DMSans";
+    src: url("../assets/fonts/dm_sans/DMSans-Regular.ttf");
+}
+@font-face {
+    font-family: "DMSerifDisplay";
+    src: url("../assets/fonts/dm_serif_display/DMSerifDisplay-Regular.ttf");
+}
