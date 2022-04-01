@@ -347,13 +347,16 @@
     width: 300px;
     display: none;
 }
-
-.top-side__icon img {
-    margin-right: 26px;
+.icon{
+    width: 30px;
     height: 27px;
+    margin-right: 26px;
+}
+.icon img {
+ 
     cursor: pointer;
-    width: 132px;
-    height: 37px;
+    width: 100%;
+    height: auto;
 }
 .footer-container__center-site {
     margin-bottom: 35px;
